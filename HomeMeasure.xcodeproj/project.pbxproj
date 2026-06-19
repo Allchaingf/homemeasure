@@ -7,18 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A7A635B2FCE016100942C85 /* HomeMeasureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A635A2FCE016100942C85 /* HomeMeasureApp.swift */; };
-		3A7A635D2FCE016100942C85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A635C2FCE016100942C85 /* ContentView.swift */; };
+		3A3825E92FE59ED200AB274E /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 3A3825E82FE59ED200AB274E /* codemagic.yaml */; };
 		3A7A635F2FCE016400942C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A635E2FCE016400942C85 /* Assets.xcassets */; };
 		3A7A63622FCE016400942C85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A63612FCE016400942C85 /* Preview Assets.xcassets */; };
+		AA0000000000000000000002 /* BlueprintBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000001 /* BlueprintBackground.swift */; };
+		AA0000000000000000000004 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* Components.swift */; };
+		AA0000000000000000000006 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000005 /* Theme.swift */; };
+		AA0000000000000000000008 /* HomeMeasureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000007 /* HomeMeasureApp.swift */; };
+		AA000000000000000000000A /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000009 /* Enums.swift */; };
+		AA000000000000000000000C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000B /* Models.swift */; };
+		AA000000000000000000000E /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000D /* AppSettings.swift */; };
+		AA0000000000000000000010 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000F /* NotificationManager.swift */; };
+		AA0000000000000000000012 /* ProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000011 /* ProjectStore.swift */; };
+		AA0000000000000000000014 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000013 /* SampleData.swift */; };
+		AA0000000000000000000016 /* AnalyticsViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000015 /* AnalyticsViewModels.swift */; };
+		AA0000000000000000000018 /* CoreViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000017 /* CoreViewModels.swift */; };
+		AA000000000000000000001A /* PlanningViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000019 /* PlanningViewModels.swift */; };
+		AA000000000000000000001C /* QualityViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000001B /* QualityViewModels.swift */; };
+		AA000000000000000000001E /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000001D /* StoreViewModel.swift */; };
+		AA0000000000000000000020 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000001F /* SplashView.swift */; };
+		AA0000000000000000000022 /* BudgetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000021 /* BudgetViews.swift */; };
+		AA0000000000000000000024 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000023 /* DashboardView.swift */; };
+		AA0000000000000000000026 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000025 /* MainTabView.swift */; };
+		AA0000000000000000000028 /* MeasurementPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000027 /* MeasurementPadView.swift */; };
+		AA000000000000000000002A /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000029 /* MoreView.swift */; };
+		AA000000000000000000002C /* ProgressAnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000002B /* ProgressAnalyticsView.swift */; };
+		AA000000000000000000002E /* QualitySafetyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000002D /* QualitySafetyViews.swift */; };
+		AA0000000000000000000030 /* ReportsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000002F /* ReportsViews.swift */; };
+		AA0000000000000000000032 /* RoomsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000031 /* RoomsViews.swift */; };
+		AA0000000000000000000034 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000033 /* SettingsView.swift */; };
+		AA0000000000000000000036 /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000035 /* SharedViews.swift */; };
+		AA0000000000000000000038 /* TimelineViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000037 /* TimelineViews.swift */; };
+		AA000000000000000000003A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000039 /* OnboardingView.swift */; };
+		AA000000000000000000003C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000003B /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A3825E82FE59ED200AB274E /* codemagic.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		3A7A63572FCE016100942C85 /* HomeMeasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeMeasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A7A635A2FCE016100942C85 /* HomeMeasureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMeasureApp.swift; sourceTree = "<group>"; };
-		3A7A635C2FCE016100942C85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A7A635E2FCE016400942C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7A63612FCE016400942C85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A7A63682FCE018C00942C85 /* HomeMeasure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeMeasure.entitlements; sourceTree = "<group>"; };
+		3A7A63692FCE018F00942C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AA0000000000000000000001 /* BlueprintBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlueprintBackground.swift; path = DesignSystem/BlueprintBackground.swift; sourceTree = "<group>"; };
+		AA0000000000000000000003 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Components.swift; path = DesignSystem/Components.swift; sourceTree = "<group>"; };
+		AA0000000000000000000005 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = DesignSystem/Theme.swift; sourceTree = "<group>"; };
+		AA0000000000000000000007 /* HomeMeasureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMeasureApp.swift; sourceTree = "<group>"; };
+		AA0000000000000000000009 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = Models/Enums.swift; sourceTree = "<group>"; };
+		AA000000000000000000000B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Models.swift; path = Models/Models.swift; sourceTree = "<group>"; };
+		AA000000000000000000000D /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppSettings.swift; path = Store/AppSettings.swift; sourceTree = "<group>"; };
+		AA000000000000000000000F /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationManager.swift; path = Store/NotificationManager.swift; sourceTree = "<group>"; };
+		AA0000000000000000000011 /* ProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectStore.swift; path = Store/ProjectStore.swift; sourceTree = "<group>"; };
+		AA0000000000000000000013 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SampleData.swift; path = Store/SampleData.swift; sourceTree = "<group>"; };
+		AA0000000000000000000015 /* AnalyticsViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnalyticsViewModels.swift; path = ViewModels/AnalyticsViewModels.swift; sourceTree = "<group>"; };
+		AA0000000000000000000017 /* CoreViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreViewModels.swift; path = ViewModels/CoreViewModels.swift; sourceTree = "<group>"; };
+		AA0000000000000000000019 /* PlanningViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlanningViewModels.swift; path = ViewModels/PlanningViewModels.swift; sourceTree = "<group>"; };
+		AA000000000000000000001B /* QualityViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QualityViewModels.swift; path = ViewModels/QualityViewModels.swift; sourceTree = "<group>"; };
+		AA000000000000000000001D /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoreViewModel.swift; path = ViewModels/StoreViewModel.swift; sourceTree = "<group>"; };
+		AA000000000000000000001F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashView.swift; path = Views/Launch/SplashView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000021 /* BudgetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BudgetViews.swift; path = Views/Main/BudgetViews.swift; sourceTree = "<group>"; };
+		AA0000000000000000000023 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DashboardView.swift; path = Views/Main/DashboardView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000025 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = Views/Main/MainTabView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000027 /* MeasurementPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeasurementPadView.swift; path = Views/Main/MeasurementPadView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000029 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoreView.swift; path = Views/Main/MoreView.swift; sourceTree = "<group>"; };
+		AA000000000000000000002B /* ProgressAnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProgressAnalyticsView.swift; path = Views/Main/ProgressAnalyticsView.swift; sourceTree = "<group>"; };
+		AA000000000000000000002D /* QualitySafetyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QualitySafetyViews.swift; path = Views/Main/QualitySafetyViews.swift; sourceTree = "<group>"; };
+		AA000000000000000000002F /* ReportsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReportsViews.swift; path = Views/Main/ReportsViews.swift; sourceTree = "<group>"; };
+		AA0000000000000000000031 /* RoomsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoomsViews.swift; path = Views/Main/RoomsViews.swift; sourceTree = "<group>"; };
+		AA0000000000000000000033 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/Main/SettingsView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000035 /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SharedViews.swift; path = Views/Main/SharedViews.swift; sourceTree = "<group>"; };
+		AA0000000000000000000037 /* TimelineViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimelineViews.swift; path = Views/Main/TimelineViews.swift; sourceTree = "<group>"; };
+		AA0000000000000000000039 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = Views/Onboarding/OnboardingView.swift; sourceTree = "<group>"; };
+		AA000000000000000000003B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = Views/RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +95,7 @@
 		3A7A634E2FCE016100942C85 = {
 			isa = PBXGroup;
 			children = (
+				3A3825E82FE59ED200AB274E /* codemagic.yaml */,
 				3A7A63592FCE016100942C85 /* HomeMeasure */,
 				3A7A63582FCE016100942C85 /* Products */,
 			);
@@ -51,9 +112,39 @@
 		3A7A63592FCE016100942C85 /* HomeMeasure */ = {
 			isa = PBXGroup;
 			children = (
-				3A7A635A2FCE016100942C85 /* HomeMeasureApp.swift */,
-				3A7A635C2FCE016100942C85 /* ContentView.swift */,
+				3A7A63692FCE018F00942C85 /* Info.plist */,
+				3A7A63682FCE018C00942C85 /* HomeMeasure.entitlements */,
 				3A7A635E2FCE016400942C85 /* Assets.xcassets */,
+				AA0000000000000000000001 /* BlueprintBackground.swift */,
+				AA0000000000000000000003 /* Components.swift */,
+				AA0000000000000000000005 /* Theme.swift */,
+				AA0000000000000000000007 /* HomeMeasureApp.swift */,
+				AA0000000000000000000009 /* Enums.swift */,
+				AA000000000000000000000B /* Models.swift */,
+				AA000000000000000000000D /* AppSettings.swift */,
+				AA000000000000000000000F /* NotificationManager.swift */,
+				AA0000000000000000000011 /* ProjectStore.swift */,
+				AA0000000000000000000013 /* SampleData.swift */,
+				AA0000000000000000000015 /* AnalyticsViewModels.swift */,
+				AA0000000000000000000017 /* CoreViewModels.swift */,
+				AA0000000000000000000019 /* PlanningViewModels.swift */,
+				AA000000000000000000001B /* QualityViewModels.swift */,
+				AA000000000000000000001D /* StoreViewModel.swift */,
+				AA000000000000000000001F /* SplashView.swift */,
+				AA0000000000000000000021 /* BudgetViews.swift */,
+				AA0000000000000000000023 /* DashboardView.swift */,
+				AA0000000000000000000025 /* MainTabView.swift */,
+				AA0000000000000000000027 /* MeasurementPadView.swift */,
+				AA0000000000000000000029 /* MoreView.swift */,
+				AA000000000000000000002B /* ProgressAnalyticsView.swift */,
+				AA000000000000000000002D /* QualitySafetyViews.swift */,
+				AA000000000000000000002F /* ReportsViews.swift */,
+				AA0000000000000000000031 /* RoomsViews.swift */,
+				AA0000000000000000000033 /* SettingsView.swift */,
+				AA0000000000000000000035 /* SharedViews.swift */,
+				AA0000000000000000000037 /* TimelineViews.swift */,
+				AA0000000000000000000039 /* OnboardingView.swift */,
+				AA000000000000000000003B /* RootView.swift */,
 				3A7A63602FCE016400942C85 /* Preview Content */,
 			);
 			path = HomeMeasure;
@@ -125,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3825E92FE59ED200AB274E /* codemagic.yaml in Resources */,
 				3A7A63622FCE016400942C85 /* Preview Assets.xcassets in Resources */,
 				3A7A635F2FCE016400942C85 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +229,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7A635D2FCE016100942C85 /* ContentView.swift in Sources */,
-				3A7A635B2FCE016100942C85 /* HomeMeasureApp.swift in Sources */,
+				AA0000000000000000000002 /* BlueprintBackground.swift in Sources */,
+				AA0000000000000000000004 /* Components.swift in Sources */,
+				AA0000000000000000000006 /* Theme.swift in Sources */,
+				AA0000000000000000000008 /* HomeMeasureApp.swift in Sources */,
+				AA000000000000000000000A /* Enums.swift in Sources */,
+				AA000000000000000000000C /* Models.swift in Sources */,
+				AA000000000000000000000E /* AppSettings.swift in Sources */,
+				AA0000000000000000000010 /* NotificationManager.swift in Sources */,
+				AA0000000000000000000012 /* ProjectStore.swift in Sources */,
+				AA0000000000000000000014 /* SampleData.swift in Sources */,
+				AA0000000000000000000016 /* AnalyticsViewModels.swift in Sources */,
+				AA0000000000000000000018 /* CoreViewModels.swift in Sources */,
+				AA000000000000000000001A /* PlanningViewModels.swift in Sources */,
+				AA000000000000000000001C /* QualityViewModels.swift in Sources */,
+				AA000000000000000000001E /* StoreViewModel.swift in Sources */,
+				AA0000000000000000000020 /* SplashView.swift in Sources */,
+				AA0000000000000000000022 /* BudgetViews.swift in Sources */,
+				AA0000000000000000000024 /* DashboardView.swift in Sources */,
+				AA0000000000000000000026 /* MainTabView.swift in Sources */,
+				AA0000000000000000000028 /* MeasurementPadView.swift in Sources */,
+				AA000000000000000000002A /* MoreView.swift in Sources */,
+				AA000000000000000000002C /* ProgressAnalyticsView.swift in Sources */,
+				AA000000000000000000002E /* QualitySafetyViews.swift in Sources */,
+				AA0000000000000000000030 /* ReportsViews.swift in Sources */,
+				AA0000000000000000000032 /* RoomsViews.swift in Sources */,
+				AA0000000000000000000034 /* SettingsView.swift in Sources */,
+				AA0000000000000000000036 /* SharedViews.swift in Sources */,
+				AA0000000000000000000038 /* TimelineViews.swift in Sources */,
+				AA000000000000000000003A /* OnboardingView.swift in Sources */,
+				AA000000000000000000003C /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,33 +270,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -189,13 +284,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -210,46 +299,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,11 +322,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HomeMeasure/HomeMeasure.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeMeasure/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeMeasure/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow to use your camera in this application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -292,11 +353,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HomeMeasure/HomeMeasure.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeMeasure/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeMeasure/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow to use your camera in this application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
